@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Merchant_Application/Merchant_Application.iml" filepath="$PROJECT_DIR$/Merchant_Application/Merchant_Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Payment_Gateway_SpringBoot/Payment_Gateway_SpringBoot.iml" filepath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/Payment_Gateway_SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Payment_Project.iml" filepath="$PROJECT_DIR$/.idea/Payment_Project.iml" />
     </modules>
   </component>
