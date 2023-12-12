@@ -5,14 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33530b28-70aa-45ca-a5f0-f70ac4135c96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/~$cumentation.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/MerchantController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/PaymentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/PaymentRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/Merchant_Application-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/Merchant_Application-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/MerchantApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/MerchantController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/PaymentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/surefire-reports/TEST-com.example.merchant_application.MerchantApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/surefire-reports/com.example.merchant_application.MerchantApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/test-classes/com/example/merchant_application/MerchantApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/Payment_Gateway_SpringBoot-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/Payment_Gateway_SpringBoot-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/MerchantServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/MerchantServerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/MerchantService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentGatewaySpringBootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentStatusResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/surefire-reports/TEST-com.example.payment_gateway_springboot.PaymentGatewaySpringBootApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/surefire-reports/com.example.payment_gateway_springboot.PaymentGatewaySpringBootApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/test-classes/com/example/payment_gateway_springboot/PaymentGatewaySpringBootApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_payment_ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_payment_ui/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +65,16 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2ZOxWg4yT1QVd9ui5m5le8VUbzb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -101,11 +140,14 @@
       <workItem from="1702378088198" duration="210000" />
       <workItem from="1702378499147" duration="369000" />
       <workItem from="1702379263100" duration="72000" />
-      <workItem from="1702380568573" duration="634000" />
+      <workItem from="1702380568573" duration="1781000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

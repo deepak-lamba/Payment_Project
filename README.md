@@ -6,6 +6,18 @@ This repository contains three components of a simple payment system: Payment Ga
 
 All three components of the payment system should be run independently as separate projects.
 
+
+## Prerequisites
+
+Before you begin, make sure you have the following tools and software installed:
+1)	Node.js
+2)	npm
+3)	MySQL
+4)  Java
+5)  Maven
+
+Also, Add the path to the 'mvn' and 'java' executable to your system's PATH environment variable
+
 ## Payment Gateway Server
 
 The Payment Gateway Server handles payment processing logic and communication between the Merchant Application and Payment UI.
@@ -27,9 +39,9 @@ npm install
 
 3) Start Payment_Gateway_SpringBoot Server
 
-cd Payment_Project\Payment_Gateway_SpringBoot\target
+cd Payment_Project\Payment_Gateway_SpringBoot\
 
-run java -jar Payment_Gateway_SpringBoot-0.0.1-SNAPSHOT.jar
+run mvn spring-boot:run
 
 ## MySQL DB Schema and Connection
 
@@ -63,9 +75,9 @@ npm install
 
 3) Start Merchant_Application Server
 
-cd Payment_Project\Merchant_Application\target
+cd Payment_Project\Merchant_Application\
 
-run java -jar Merchant_Application-0.0.1-SNAPSHOT.jar
+run mvn spring-boot:run
 
 #### The server will be running on http://localhost:8081 by default.
 
