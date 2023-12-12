@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6fae70-16af-41af-b649-9500c20ebac1" name="Changes" comment="" />
+    <list default="true" id="9e6fae70-16af-41af-b649-9500c20ebac1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/MerchantServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/MerchantServerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/MerchantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_payment_ui/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_payment_ui/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_payment_ui/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_payment_ui/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_payment_ui/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_payment_ui/.idea/web_payment_ui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Merchant_Application/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Merchant_Application/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Merchant_Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Merchant_Application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Merchant_Application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Merchant_Application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Merchant_Application/src/main/java/com/example/merchant_application/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Merchant_Application/src/main/java/com/example/merchant_application/MerchantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Merchant_Application/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Merchant_Application/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Merchant_Application/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Merchant_Application/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Merchant_Application/target/classes/com/example/merchant_application/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Merchant_Application/target/classes/com/example/merchant_application/MerchantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/payment_gateway_springboot/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/payment_gateway_springboot/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/payment_gateway_springboot/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/payment_gateway_springboot/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/payment_gateway_springboot/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/payment_gateway_springboot/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/payment_gateway_springboot/PaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_payment_ui/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../web_payment_ui/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_payment_ui/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../web_payment_ui/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_payment_ui/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../web_payment_ui/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_payment_ui/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/../web_payment_ui/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +46,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,13 +80,16 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/IntelliJ_Works/web_payment_ui",
+    "last_opened_file_path": "C:/IntelliJ_Works/Payment_Project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "e50c8706befe5b496bf0991f702860f0",
     "vue.rearranger.settings.migration": "true"
   }
@@ -83,6 +123,7 @@
       <workItem from="1702209746392" duration="5114000" />
       <workItem from="1702216453247" duration="3910000" />
       <workItem from="1702271401254" duration="8317000" />
+      <workItem from="1702321806672" duration="10238000" />
     </task>
     <servers />
   </component>

@@ -16,13 +16,18 @@ public class PaymentService {
     @Autowired
     private PaymentRepository paymentRepository;
 
-    public String processPayment(PaymentRequest paymentRequest) {
+    @Autowired
+    private MerchantService merchantService;
+
+    public String processPayment(PaymentRequest paymentRequest, String serverKey) {
         try {
             // Perform payment processing logic (e.g., validation, charging the card, etc.)
-
+            // Fetch merchant_id using server_key
+            String merchantId = merchantService.getMerchantIdByServerKey(serverKey);
             // Save payment details to the database
             // Perform card payment processing logic
             validateCardDetails(paymentRequest);
+
             // Save payment details to the database
             Payment payment = new Payment(
                     paymentRequest.getCardNumber(),
@@ -30,7 +35,8 @@ public class PaymentService {
                     paymentRequest.getExpiryDate(),
                     PaymentStatus.PROCESSING,
                     paymentRequest.getCvv(),
-                    paymentRequest.getAmount()
+                    paymentRequest.getAmount(),
+                    merchantId
             );
             paymentRepository.save(payment);
             payment.setPaymentReference(generatePaymentReference(payment.getId()));

@@ -9,6 +9,7 @@ public class Payment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String merchantId;
     private String cardNumber;
     private String cardHolderName;
     private String expiryDate;
@@ -20,13 +21,14 @@ public class Payment {
 
     private String paymentReference;
 
-    public Payment(String cardNumber, String cardHolderName, String expiryDate, PaymentStatus status, String cvv, int amount) {
+    public Payment(String cardNumber, String cardHolderName, String expiryDate, PaymentStatus status, String cvv, int amount, String merchantId) {
         this.cardNumber = cardNumber;
         this.cardHolderName = cardHolderName;
         this.expiryDate = expiryDate;
         this.cvv = cvv;
         this.amount = amount;
         this.status = status;
+        this.merchantId = merchantId;
         // other initializations if needed
     }
 
