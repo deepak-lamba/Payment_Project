@@ -9,10 +9,10 @@ All three components of the payment system should be run independently on separa
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Project setup](#project-setup)
-    - [MySQL database setup and connection](###MySQLdatabasesetupandconnection)
-    - [Payment Gateway Server setup](###PaymentGatewayServer)
-    - [Merchant Application Server](###MerchantApplicationServer)
-    - [Payment Web Interface](##PaymentWebInterface)
+    - [MySQL database setup and connection](#mysql-database-setup-and-connection)
+    - [Payment Gateway Server setup](#payment-gateway-server)
+    - [Merchant Application Server](#merchant-application-server)
+    - [Payment Web Interface](#payment-web-interface)
 
 ## Prerequisites
 Before you begin, make sure you have the following tools and software installed:
