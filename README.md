@@ -22,27 +22,6 @@ Also, Add the path to the 'mvn' and 'java' executable to your system's PATH envi
 
 The Payment Gateway Server handles payment processing logic and communication between the Merchant Application and Payment UI.
 
-### Installation and Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/deepak-lamba/Payment_Project.git
-
-1) Navigate to the Payment Gateway Server directory:
-
-cd Payment_Project\Payment_Gateway_SpringBoot\
-
-2) Install dependencies:
-
-npm install
-
-3) Start Payment_Gateway_SpringBoot Server
-
-cd Payment_Project\Payment_Gateway_SpringBoot\
-
-run mvn spring-boot:run
-
 ## MySQL DB Schema and Connection
 
 ## MySQL Database
@@ -58,7 +37,30 @@ The payment Gateway uses a MySQL database to store payment-related information.
    ```sql
    CREATE DATABASE payment_gateway_db;
 
-Replace `your-mysql-username` and `your-mysql-password` with your MySQL username and password. Make sure to update the database configuration settings in the `config.js` files of Payment_Gateway_SpringBoot
+### Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/deepak-lamba/Payment_Project.git
+
+1) Navigate to the Payment Gateway Server directory:
+
+cd Payment_Project\Payment_Gateway_SpringBoot\
+
+2) Install dependencies:
+
+npm install
+
+3) Connect to Database
+
+Replace `your-mysql-username` and `your-mysql-password` with your MySQL username and password. Make sure to update the database configuration settings in the `application.properties` files of Payment_Gateway_SpringBoot
+
+4) Start Payment_Gateway_SpringBoot Server
+
+cd Payment_Project\Payment_Gateway_SpringBoot\
+
+run mvn spring-boot:run
 
 #### The server will be running on http://localhost:8080 by default.
 
