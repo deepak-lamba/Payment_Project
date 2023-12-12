@@ -2,6 +2,10 @@
 
 This repository contains three components of a simple payment system: Payment Gateway Server, Merchant Application Server, and Payment UI Web.
 
+## Note: Running the Components
+
+All three components of the payment system should be run independently as separate projects.
+
 ## Payment Gateway Server
 
 The Payment Gateway Server handles payment processing logic and communication between the Merchant Application and Payment UI.
