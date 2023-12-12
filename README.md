@@ -53,6 +53,42 @@ npm install
 
 #### The server will be running on http://localhost:8081 by default.
 
+## Merchant Server Registration
+
+To integrate your Merchant Application Server with the Payment Gateway, you need to register your server with the Payment Gateway Server. Follow the steps below:
+
+1. **Server Registration Endpoint:**
+
+   Use the following endpoint to register your Merchant Application Server on the Payment Gateway Server:
+
+GET http://localhost:8080/api/registration/register-server
+
+2. **Authorization Header:**
+
+Include the following Authorization header in your HTTP request:
+
+Authorization: hash@access@register
+
+
+This header is required for authentication.
+
+3. **Response:**
+
+Upon successful registration, the Payment Gateway Server will respond with the following information:
+
+{
+  "merchantId": "your-merchant-id",
+  "serverKey": "your-server-key"
+}
+
+Make sure to store these values in the application.properties file of your Merchant SpringBoot Application.
+### application.properties
+
+#### payment.gateway.merchant.id=your-merchant-id,
+#### payment.gateway.server.key=your-server-key
+
+Note: Ensure that the Payment Gateway Server is running and accessible before initiating the registration process.
+
 ## Payment UI Web
 The Payment UI Web is a React-based web application for users to make payments and check payment status.
 
