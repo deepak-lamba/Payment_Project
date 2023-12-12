@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="33530b28-70aa-45ca-a5f0-f70ac4135c96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/MerchantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/PaymentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Merchant_Application/target/classes/com/example/merchant_application/PaymentRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/PaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Payment_Gateway_SpringBoot/target/classes/com/example/payment_gateway_springboot/RegistrationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_payment_ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_payment_ui/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,27 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IntelliJ_Works/Payment_Project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5a2590187f651beea9cf07f6d2112b35&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/IntelliJ_Works/Payment_Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "5a2590187f651beea9cf07f6d2112b35",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -93,6 +99,9 @@
       <workItem from="1702373217956" duration="827000" />
       <workItem from="1702374267632" duration="178000" />
       <workItem from="1702378088198" duration="210000" />
+      <workItem from="1702378499147" duration="369000" />
+      <workItem from="1702379263100" duration="72000" />
+      <workItem from="1702380568573" duration="634000" />
     </task>
     <servers />
   </component>

@@ -19,11 +19,17 @@ The Payment Gateway Server handles payment processing logic and communication be
 
 1) Navigate to the Payment Gateway Server directory:
 
-cd Payment_Project/Payment_Gateway_SpringBoot
+cd Payment_Project\Payment_Gateway_SpringBoot\
 
 2) Install dependencies:
 
 npm install
+
+3) Start Payment_Gateway_SpringBoot Server
+
+cd Payment_Project\Payment_Gateway_SpringBoot\target
+
+run java -jar Payment_Gateway_SpringBoot-0.0.1-SNAPSHOT.jar
 
 ## MySQL DB Schema and Connection
 
@@ -49,11 +55,17 @@ The Merchant Application Server is responsible for handling merchant-specific lo
 
 1) Navigate to the Merchant Application Server directory:
 
-cd Payment_Project/Merchant_Application
+cd Payment_Project\Merchant_Application\
 
 2) Install dependencies:
 
 npm install
+
+3) Start Merchant_Application Server
+
+cd Payment_Project\Merchant_Application\target
+
+run java -jar Merchant_Application-0.0.1-SNAPSHOT.jar
 
 #### The server will be running on http://localhost:8081 by default.
 
@@ -96,7 +108,15 @@ Note: Ensure that the Payment Gateway Server is running and accessible before in
 ## Payment UI Web
 The Payment UI Web is a React-based web application for users to make payments and check payment status.
 
-1) Start the Payment UI Web
+1) Navigate to the Merchant Application Server directory:
+
+cd Payment_Project\web_payment_ui
+
+2) Install dependencies:
+
+npm install
+
+2) Start the Payment UI Web
 
 npm start
 
